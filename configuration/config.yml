@@ -1,0 +1,34 @@
+config:
+ prefix: '&8&lKill&4&lZone &f|'
+ 
+gamemode:
+ players:
+  minimum: 4
+  maximum: 10
+ teams:
+  offense: 
+   name: 'Hunters'
+   title: '&6[Hunters]'
+  defense:
+   name: 'Runners'
+   title: '&9[Runners]'
+  spectator:
+   name: 'Spectators'
+   title: '&8[Spectators]'
+  eliminated:
+   name: 'Eliminated'
+   title: '&8[X]'
+  operators:
+   sniper:
+    name: 'Marksman'
+   juggernaut:
+    name: 'Juggernaut'
+   sneaker:
+    name: 'Sneaker'
+   bulldozer:
+    name: 'Bulldozer'
+   rogue:
+    name: 'Rogue'
+  games:
+   minutes: 8
+   rounds: 3
